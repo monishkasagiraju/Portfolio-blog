@@ -15,15 +15,15 @@ body{
     overflow-y: auto; 
 }
 header{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 30px 100px;
+    padding: 2px 100px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    z-index: 100;
+    z-index: 9999;
 }
 .logo{
     font-size: 2em;
@@ -224,6 +224,7 @@ header{
 
 .home,.education,.project,.hobbies,.footer{
     margin-bottom: 60px;
+    padding-top: 60px;
 }
 
 

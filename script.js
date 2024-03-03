@@ -16,3 +16,17 @@ window.addEventListener('scroll', () => {
     hill4.style.left = value * -1.5 + 'px';
     hill1.style.top = value * 1 + 'px';
 });
+
+window.addEventListener('scroll', () => {
+    const header = document.getElementById('header');
+    const sec = document.getElementById('sec');
+
+    const scrollPosition = window.scrollY;
+    const secPosition = sec.getBoundingClientRect().top;
+
+    if (secPosition <= 0) {
+        header.style.backgroundColor = '#a8dfd5'; 
+    } else {
+        header.style.backgroundColor = 'transparent'; 
+    }
+});
