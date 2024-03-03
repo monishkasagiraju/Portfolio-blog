@@ -15,7 +15,7 @@ body{
     overflow-y: auto; 
 }
 header{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -116,7 +116,7 @@ header{
 }
 .home-img{
     margin-left: 20px;
-    height: 100%; /* Ensure the image container takes up the full height of its parent */
+    height: 100%;
     display: flex;
     align-items: center;
 }
