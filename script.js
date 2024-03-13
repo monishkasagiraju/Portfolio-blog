@@ -30,3 +30,8 @@ window.addEventListener('scroll', () => {
         header.style.backgroundColor = 'transparent'; 
     }
 });
+
+$(".pop").hide();
+$(".logo").click(function(){
+    $(".pop").toggle();
+});

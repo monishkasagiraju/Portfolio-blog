@@ -26,11 +26,8 @@ header{
     z-index: 9999;
 }
 .logo{
-    font-size: 2em;
-    color: #359381;
-    pointer-events:none ;
     margin-right: 100px;
-
+    position: relative;
 }
 .navigation a{
     text-decoration: none;
@@ -239,4 +236,20 @@ header{
 @keyframes fade-in{
     
     to{scale: 1; opacity: 1;}
+}
+
+.pop{
+    padding: 20px;
+    margin: 10px;
+    background:#359381;
+    color: white;
+    display: block;
+    position: absolute;
+    top:60px;
+    left:10px;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 7px;
+    font-size: medium;
+    font-weight:400;
 }
