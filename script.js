@@ -35,3 +35,16 @@ $(".pop").hide();
 $(".logo").click(function(){
     $(".pop").toggle();
 });
+
+const nav=document.querySelector(".navigation");
+const navtog=document.querySelector(".navicon");
+
+navtog.addEventListener("click",()=>{
+    const vis= nav.getAttribute("data-visible");
+    if(vis==="false"){
+        nav.setAttribute("data-visible",true);
+    }
+    else{
+        nav.setAttribute("data-visible",false);
+    }
+});
