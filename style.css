@@ -250,7 +250,7 @@ header{
     cursor: pointer;
     display: none;
 }
-@media(max-width:768px){
+@media screen and (max-width:768px){
     .navicon{
         display: block;
         position: absolute;
@@ -310,6 +310,10 @@ header{
         justify-content: center;
         margin-bottom: 40px;
         margin-left: 25%;
+    }
+    .home,.education,.project,.hobbies,.footer{
+        margin-bottom: 40px;
+        padding-top: 40px;
     }
 
 }
